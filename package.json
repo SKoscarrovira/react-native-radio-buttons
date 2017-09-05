@@ -1,6 +1,6 @@
 {
   "name": "react-native-radio-buttons",
-  "version": "0.14.0",
+  "version": "1.0.0",
   "description": "A react component to implement custom radio buttons-like behaviors: multiple options, only on can be selected at once.",
   "main": "lib/index.js",
   "directories": {
@@ -15,6 +15,7 @@
     "url": "git@github.com:ArnaudRinquin/react-native-radio-buttons.git"
   },
   "peerDependencies": {
+    "prop-types": ">=15.5.0",
     "react-native": ">=0.25.0"
   },
   "keywords": [

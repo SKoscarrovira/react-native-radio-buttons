@@ -15,7 +15,7 @@ npm i -S react-native-radio-buttons
 ## Demo app
 
 ```sh
-git clone git@github.com:ArnaudRinquin/react-native-radio-buttons.git
+git clone https://github.com/ArnaudRinquin/react-native-radio-buttons.git
 cd react-native-radio-buttons
 npm run demo
 ```
@@ -170,7 +170,7 @@ options = [
 <SegmentedControls
   options={ options }
   onSelection={ setSelectedOption.bind(this) }
-  selectedOption={ this.state.selectedOption },
+  selectedOption={ this.state.selectedOption }
   extractText={ (option) => option.label }
 />
 ```
@@ -183,7 +183,7 @@ With the above `options`, you'll need `testOptionEqual` to be as follows in orde
   <SegmentedControls
     options={ options }
     onSelection={ setSelectedOption.bind(this) }
-    selectedOption={ this.state.selectedOption },
+    selectedOption={ this.state.selectedOption }
     extractText={ (option) => option.label }
     testOptionEqual={(selectedValue, option) => selectedValue === option.value}
   />
